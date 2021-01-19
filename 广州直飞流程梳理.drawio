@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T02:45:40.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="tXp0FwxRX-aCIr0tDT_E" version="14.1.9" type="github"><diagram id="JE4b1-aOM9eqMM7_Cl9-" name="Page-1">vZRLj5swEIB/zRxX4pFN4BgSJ31sT5FaqTcXpkBrGOQMIdlfXwNmCUubbtXVXiz7mzH2fLYBf1Oc91pW2SdKUIHnJGfwt+B5q2Bp2hZcerBY+D1IdZ70yB3BIX9ECx1L6zzB4ySRiRTn1RTGVJYY84RJramZpn0nNV21kinOwCGWak6/5AlnPQ281cjfYZ5mw8ruMuwjhRySbSXHTCbUXCFfgL/RRNz3ivMGVetu8NLP2/0h+rQxjSW/ZMIOPzan+Gfxeb9/Xz8Uj3ffPny9W/RfOUlV24LtZvkyGMDECLFD0pxRSqVUYqSRprpMsF3GMaMx54GoMtA18AcyX+zpyprJoIwLZaPzUmx1R6p1jDf2b7fLUqfIN/LspWtruVrAitojFcj6YhI0Ksn5aXr40t6h9Clv1Gw61vQ/WPfm1sU9RCFEu66zglCAMK0D5v2IAKIFrFezk5l6b7Kc8VDJzldjHuMLHZ9QM55vWrFv113aq9yML8Edrnd29QqGvFcX5/9G3BICAesARAiB8eV24qJWmSFrv1MZwNrkdJaDLYT37SzTRk43fdtGn8v9i86p+/+Ra6OeY6W9gWwzHP87Xezq5+2LXw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-19T08:29:29.649Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="_UChxTxNFlyGEL414VqH" version="14.1.9" type="github">
+  <diagram id="JE4b1-aOM9eqMM7_Cl9-" name="广州直飞流程梳理">
+    <mxGraphModel dx="10121" dy="6190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FeKwvckmVGGIuLmz-bJZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeKwvckmVGGIuLmz-bJZ-2" target="FeKwvckmVGGIuLmz-bJZ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeKwvckmVGGIuLmz-bJZ-2" value="广州理货（物流端）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FeKwvckmVGGIuLmz-bJZ-3" target="e9G2HlhrvTSdlEhlno0_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FeKwvckmVGGIuLmz-bJZ-3" target="e9G2HlhrvTSdlEhlno0_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeKwvckmVGGIuLmz-bJZ-3" value="推送直飞订单数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e9G2HlhrvTSdlEhlno0_-1" target="e9G2HlhrvTSdlEhlno0_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-1" value="订单审核管理（关务端）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-5" value="FEDEX" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、补充快递单号（异常订单推送时，快递单号丢失）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、补充订单明细中的PO信息（缺少po_id,po_goods_id）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-130" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-13" value="1、拆单规则重构（按有信达给的规则来）" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="827" y="200" width="283" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-14" value="2、" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="827" y="290" width="283" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9G2HlhrvTSdlEhlno0_-15" value="订单审核管理" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
