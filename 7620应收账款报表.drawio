@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T03:11:54.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="uoBvwxPmZLVKQmsm4LVl" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T02:19:03.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="H25It8AzPHj4dIOcc6dy" version="14.6.10" type="github">
   <diagram id="EMt0QNAx2J99hczBukC7" name="Page-1">
-    <mxGraphModel dx="1097" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2198" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,67 +8,319 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-1" value="销售订单总应收&amp;nbsp;&lt;br&gt;receivable_amounts&amp;gt; 0&lt;br&gt;sell_type = 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="10" y="460" width="150" height="60" as="geometry" />
+          <mxGeometry x="30" y="2730" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-2" value="汇总销售订单明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="2730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-7" value="订单&lt;br&gt;t_sale_orders(订单主表)&lt;br&gt;t_sale_orders_goods(订单明细表)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="120" width="240" height="60" as="geometry" />
+          <mxGeometry x="490" y="40" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-11" value="发货&lt;br&gt;t_wms_sendout(发货单主表)&lt;br&gt;t_wms_sendout_detail(发货单明细表)&lt;br&gt;t_wms_barcode(条码表)&lt;br&gt;t_wms_presendout(发货申请主表)&lt;br&gt;t_wms_presendout_detail(发货申请明细表)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="220" width="240" height="100" as="geometry" />
+        <mxCell id="C3T1x8RPN89TvurakHbP-11" value="发货&lt;br&gt;t_wms_sendout(发货单主表)&lt;br&gt;t_wms_sendout_detail(发货单明细表)&lt;br&gt;t_wms_barcode(条码表)&lt;br&gt;t_wms_presendout_detail(发货申请明细表)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-13" value="售后&lt;br&gt;t_sale_as_orders(售后主表)&lt;br&gt;t_sale_as_orders_goods（售后明细表）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="350" width="240" height="60" as="geometry" />
+          <mxGeometry x="490" y="270" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-21" value="用户&lt;br&gt;t_user(用户表)-邮箱" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="510" width="240" height="60" as="geometry" />
+          <mxGeometry x="1180" y="140" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-23" value="销售代表（维度表）&lt;br&gt;t_staff&lt;br&gt;t_access_group&lt;br&gt;t_access_department&lt;br&gt;t_user_staff_link(会员客户代表关系表)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="585" width="247" height="115" as="geometry" />
+          <mxGeometry x="1180" y="240" width="247" height="115" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-24" value="汇率&lt;br&gt;t_fms_exchangerate（取财务核算汇率）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="440" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-39" target="C3T1x8RPN89TvurakHbP-41">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1180" y="40" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-39" value="ODS层原始表数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="460" y="255" width="320" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-40" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="270" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-41" target="C3T1x8RPN89TvurakHbP-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-41" value="总线矩阵" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1020" width="320" height="80" as="geometry" />
+          <mxGeometry x="20" y="40" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-43" value="法务催款函收件地址&lt;br&gt;待沟通" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="650" width="240" height="60" as="geometry" />
+          <mxGeometry x="490" y="460" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-44" value="PCBA订单（db_pcba）&lt;br&gt;t_pcba_sale_orders(订单主表)&lt;br&gt;t_pcba_sale_orders_items(订单明细表)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="120" width="240" height="60" as="geometry" />
+          <mxGeometry x="860" y="40" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-45" value="售后&lt;br&gt;t_pcba_as_discount_orders(折让单-求和)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="320" width="240" height="60" as="geometry" />
+        <mxCell id="C3T1x8RPN89TvurakHbP-45" value="整单折扣费&lt;br&gt;t_pcba_as_discount_orders(折让单-求和)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="240" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-46" value="PCBA发货（db_srm）&lt;br&gt;t_pcba_wms_sendout（发货单）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="220" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-48" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="465" width="20" height="385" as="geometry" />
+          <mxGeometry x="860" y="140" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-50" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;授信额度&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;t_fms_credit_application(授信额度申请表)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="720" width="240" height="60" as="geometry" />
+          <mxGeometry x="1180" y="390" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3T1x8RPN89TvurakHbP-52" value="DWD层数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1510" width="320" height="80" as="geometry" />
+          <mxGeometry x="30" y="1010" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="C3T1x8RPN89TvurakHbP-55" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;授信额度&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;t_sale_orders_amounts(&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;SALE销售单整体费用折扣明细表&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;)&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="820" width="240" height="60" as="geometry" />
+        <mxCell id="C3T1x8RPN89TvurakHbP-56" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;整单附加折扣费&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;t_sale_orders_amounts(&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;SALE销售单整体费用折扣明细表&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;)&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-57" value="整单附加费&lt;br&gt;t_pcba_as_discount_orders(smt订单型号费用表)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-60" target="C3T1x8RPN89TvurakHbP-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-60" value="&lt;div&gt;t_ods_oerp_sale_orders_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_sale_orders_goods_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1010" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-61" target="C3T1x8RPN89TvurakHbP-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-61" value="t_dwd_csale_orders_goods_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1010" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-63" value="IC销售订单明细" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-70" target="C3T1x8RPN89TvurakHbP-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-70" value="&lt;div&gt;t_ods_oerp_sale_as_orders_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_sale_as_orders_goods_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1110" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-71" target="C3T1x8RPN89TvurakHbP-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-71" value="t_dwd_csale_as_orders_goods_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1110" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-73" value="IC销售售后明细" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-75" target="C3T1x8RPN89TvurakHbP-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-75" value="&lt;div&gt;t_ods_oerp_wms_sendout_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_wms_sendout_detail_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_wms_barcode_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_wms_presendout_detail_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1200" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-76" target="C3T1x8RPN89TvurakHbP-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-76" value="t_dwd_cwms_sendout_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1200" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-78" value="IC物流发货明细" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-80" target="C3T1x8RPN89TvurakHbP-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-80" value="t_ods_opcba_pcba_wms_sendout_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1010" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-81" target="C3T1x8RPN89TvurakHbP-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-81" value="t_dwd_cpcba_wms_sendout_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1010" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-84" value="PCBA物流发货明细" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-86" target="C3T1x8RPN89TvurakHbP-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-86" value="&lt;div&gt;t_ods_opcba_pcba_sale_orders_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_opcba_pcba_sale_orders_items_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1120" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-87" target="C3T1x8RPN89TvurakHbP-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-87" value="t_dwd_cpcba_sale_orders_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1120" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-89" value="PCBA销售订单明细" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-91" target="C3T1x8RPN89TvurakHbP-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-91" value="t_ods_opcba_pcba_as_discount_orders_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1240" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-94" target="C3T1x8RPN89TvurakHbP-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-94" value="t_dwd_cpcba_as_orders_goods_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1240" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-96" value="PCBA销售折让明细（计算整单折扣费）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-98" target="C3T1x8RPN89TvurakHbP-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-98" value="t_ods_oerp_fms_credit_application_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1420" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-99" target="C3T1x8RPN89TvurakHbP-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-99" value="t_dwd_cfms_credit_application_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1420" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-101" value="授信申请单" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-103" target="C3T1x8RPN89TvurakHbP-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-103" value="t_ods_oerp_sale_orders_amounts_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1300" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-104" target="C3T1x8RPN89TvurakHbP-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-104" value="t_dwd_csale_orders_amounts_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1300" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-106" value="IC整单附加|折扣费用表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-108" target="C3T1x8RPN89TvurakHbP-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-108" value="t_ods_opcba_sale_orders_amounts_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1350" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-109" target="C3T1x8RPN89TvurakHbP-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-109" value="&lt;div&gt;t_dwd_csale_orders_goods_detail_1d_ql&amp;nbsp;&lt;/div&gt;&lt;div&gt;t_dwd_csale_as_orders_goods_detail_1d_ql&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;t_dwd_cpcba_sale_orders_detail_1d_ql&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;t_dwd_cpcba_as_orders_goods_detail_1d_ql&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1530" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-110" target="C3T1x8RPN89TvurakHbP-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-110" value="t_dwd_cpcba_orders_amounts_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1350" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-112" value="PCBA整单附加用表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-115" target="C3T1x8RPN89TvurakHbP-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-115" value="t_dwd_csale_ic_pcbac_orders_goods_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1530" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-117" value="IC-PCBA销售明细整合表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-120" target="C3T1x8RPN89TvurakHbP-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-120" value="&lt;div&gt;t_ods_oerp_wms_sendout_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_wms_sendout_detail_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_wms_barcode_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_wms_presendout_detail_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1640" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-121" target="C3T1x8RPN89TvurakHbP-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-121" value="t_dwd_cwms_ic_pcba_sendout_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1640" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-123" value="IC-PCBA物流发货明细整合表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-126" target="C3T1x8RPN89TvurakHbP-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-126" value="&lt;div&gt;t_dwd_csale_orders_amounts_1d_ql&amp;nbsp;&lt;/div&gt;&lt;div&gt;t_dwd_cpcba_as_orders_goods_detail_1d_ql&lt;/div&gt;&lt;div&gt;t_dwd_cpcba_orders_amounts_1d_ql&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1750" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-127" target="C3T1x8RPN89TvurakHbP-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-127" value="t_dwd_csale_ic_pcba_orders_amounts_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1750" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-129" value="IC-PCBA整单附加折扣费整合表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-132" value="DWS层数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2430" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-134" value="DIM维表数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="660" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-136" target="C3T1x8RPN89TvurakHbP-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-136" value="t_ods_oerp_fms_exchangerate_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="660" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-138" target="C3T1x8RPN89TvurakHbP-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-138" value="t_dim_cfms_exchangerate_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="660" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-139" value="财务汇率维表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-142" target="C3T1x8RPN89TvurakHbP-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-142" value="&lt;div&gt;t_ods_oerp_staff_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_access_group_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_access_department_1d_ql&lt;/div&gt;&lt;div&gt;t_ods_oerp_user_staff_link_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="760" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-144" target="C3T1x8RPN89TvurakHbP-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-144" value="t_dim_cuser_staff_info_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="760" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-145" value="会员与销售代表维表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-147" target="C3T1x8RPN89TvurakHbP-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-147" value="&lt;div&gt;t_dwd_csale_ic_pcbac_orders_goods_detail_1d_ql&lt;/div&gt;&lt;div&gt;t_dwd_cwms_ic_pcba_sendout_detail_1d_ql&lt;/div&gt;&lt;div&gt;t_dwd_csale_ic_pcba_orders_amounts_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2430" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-149" target="C3T1x8RPN89TvurakHbP-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-149" value="t_dws_csale_orders_goods_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2430" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-150" value="DWS--IC-PCBA销售明细发货明细整合表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="2440" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-152" target="C3T1x8RPN89TvurakHbP-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-152" value="&lt;div&gt;t_dwd_csale_ic_pcbac_orders_goods_detail_1d_ql&lt;/div&gt;&lt;div&gt;t_dwd_cwms_ic_pcba_sendout_detail_1d_ql&lt;/div&gt;&lt;div&gt;t_dwd_csale_ic_pcba_orders_amounts_1d_ql&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2550" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-154" target="C3T1x8RPN89TvurakHbP-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-154" value="t_dws_csale_orders_amounts_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2550" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-155" value="DWS--IC-PCBA折扣费发货明细整合表（整单折扣费、附加费需要单独生成一条或多条记录）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="2560" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-156" value="TDM层数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3110" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-159" target="C3T1x8RPN89TvurakHbP-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-159" value="&lt;span style=&quot;text-align: left&quot;&gt;t_dws_csale_orders_goods_detail_1d_ql&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;t_dws_csale_orders_amounts_detail_1d_ql&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3110" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3T1x8RPN89TvurakHbP-161" target="C3T1x8RPN89TvurakHbP-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-161" value="t_tdm_csale_orders_goods_detail_1d_ql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="3110" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C3T1x8RPN89TvurakHbP-162" value="TDM--IC-PCBA应收账款整合表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="3120" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
